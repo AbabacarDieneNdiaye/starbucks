@@ -1,3 +1,7 @@
+/**
+ * @author ADN
+ * Javascrit file  
+ */
 
 function imgSlider(anything) {
     document.querySelector('.starbucks').src = anything;
@@ -13,5 +17,4 @@ function toggleMenu() {
     var navigation = document.querySelector('.navigation');
     menuToggle.classList.toggle('active');
     navigation.classList.toggle('active');
-
 }
